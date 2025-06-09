@@ -21,7 +21,7 @@ body, h1, header, footer, nav {
     color: rgba(0,0,0,0.3);
     letter-spacing: 5px;
     text-align: center;
-    padding-bottom: 150px;
+    padding-bottom: 75px;
 }
 
 /* === GALLERY SECTION === */
@@ -29,10 +29,8 @@ body, h1, header, footer, nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
-    max-width: 1500px;
+    margin-left: 4vw;
+    margin-right: 4vw;
 }
 
 .gallery img {
@@ -61,12 +59,12 @@ footer img {
 .FooterName {
     font-weight: bold;
     color: rgb(82, 82, 82);
-    font-size: clamp(1.2rem, 2vw, 2.5rem);
+    font-size: clamp(1.8rem, 3vw, 3.75rem);
     margin-top: 10vw;
 }
 
 .Copyright {
     color: rgba(0,0,0,0.3);
     letter-spacing: 2px;
-    font-size: clamp(0.6rem, 1vw, 1.2rem);
+    font-size: clamp(0.9rem, 1.5vw, 1.8rem);
 }
